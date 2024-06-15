@@ -1,0 +1,27 @@
+
+mat-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 7%;
+}
+  
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+mat-card-title{
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #281818 !important;
+    color: #007300 !important;
+}
+
+button:hover {
+    background-color: #4c0c0c !important;
+}

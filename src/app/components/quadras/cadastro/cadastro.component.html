@@ -1,0 +1,25 @@
+
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Quadras</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="quadraForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="fill">
+          <mat-label>Nome da Quadra</mat-label>
+          <input matInput formControlName="nome" required title="Nome da Quadra">
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Status</mat-label>
+          <mat-select formControlName="ativo" required>
+            <mat-option value="true">Ativo</mat-option>
+            <mat-option value="false">Inativo</mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit">Salvar</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  
